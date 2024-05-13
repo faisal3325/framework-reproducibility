@@ -86,7 +86,7 @@ The following Python code is running on a machine in which `pip` package
 ```
 import tensorflow as tf
 tf.keras.utils.set_random_seed(1)
-tf.config.experimental.enable_op_determinism
+tf.config.experimental.enable_op_determinism()
 # Now build your graph and train it
 ```
 
